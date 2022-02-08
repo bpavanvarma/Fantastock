@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<title>Fantastock</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="lib/axios/dist/axios.standalone.js"></script>
+<script type="text/javascript" src="lib/CryptoJS/rollups/hmac-sha256.js"></script>
+<script type="text/javascript" src="lib/CryptoJS/rollups/sha256.js"></script>
+<script type="text/javascript" src="lib/CryptoJS/components/hmac.js"></script>
+<script type="text/javascript" src="lib/CryptoJS/components/enc-base64.js"></script>
+<script type="text/javascript" src="lib/url-template/url-template.js"></script>
+<script type="text/javascript" src="lib/apiGatewayCore/sigV4Client.js"></script>
+<script type="text/javascript" src="lib/apiGatewayCore/apiGatewayClient.js"></script>
+<script type="text/javascript" src="lib/apiGatewayCore/simpleHttpClient.js"></script>
+<script type="text/javascript" src="lib/apiGatewayCore/utils.js"></script>
+<script type="text/javascript" src="apigClient.js"></script>
+<script src="https://sdk.amazonaws.com/js/aws-sdk-2.1045.0.min.js"></script>
+<script src="https://rawgit.com/aws/amazon-cognito-identity-js/master/dist/aws-cognito-sdk.min.js"></script>
+<script src="https://rawgit.com/aws/amazon-cognito-identity-js/master/dist/amazon-cognito-identity.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+<body>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-red w3-bar-block" id="sidebar" style="width:15%" >
+    <h3 class="w3-bar-item w3-red w3-center">Menu</h3>
+      <a href="dashboard.html" class="w3-bar-item w3-pale-red w3-button w3-center" id="menus">Dashboard</a>
+      <a href="competitions.html" class="w3-bar-item w3-pale-red w3-button w3-center" id="menus">Competitions</a>
+      <a href="learn_more.html" class="w3-bar-item w3-pale-red w3-button w3-center" id="menus">How to play?</a>
+      <a href="contact_us.html" class="w3-bar-item w3-pale-red w3-button w3-center" id="menus">Contact Us</a>
+      <a href="https://fantasystock.auth.us-west-2.amazoncognito.com/logout?client_id=3t0be5bgtv4raovjf9jfulfrg2&logout_uri=https://fantastock.s3.us-west-2.amazonaws.com/index.html" class="w3-bar-item w3-pale-red w3-button w3-center" id="menus">Sign Out</a>
+</div>
+
+<!-- Page Content -->
+<div style="margin-left:15%">
+  <div class="w3-container w3-red" id="mainbar">
+    <div class="two">
+      <h1>FANTASTOCK<br><span>LEVEL UP YOUR STOCK MARKET GAME</span></h1>                   
+    </div>        
+  </div>
+
+	<div class="w3-container"align= "center">
+	<h1 ><b>Easy to play</b></h1>
+    <br>
+    <h2>1. Select a competition that's Yet to Start or Live</h2>
+    <br>
+    <h2>2. Select 5 companies that you would like to invest in</h2>
+    <br>
+    <h2>3. Track your status on the dashboard</h2>
+    <br>
+    <h2>4. Winners will be awarded at the end of competition</h2>
+    <br>
+    </div>
+</div>
+</body>
+</html> 
+
