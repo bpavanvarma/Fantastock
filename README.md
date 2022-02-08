@@ -2,10 +2,10 @@
 
 #### **Team Members:**
 
-Pruthviraj R Patil(prp7650@nyu.edu)
-Swathi Jain(sp6180@nyu.edu)
 Pavan Varma Bhupatiraju (pb2612@nyu.edu)
 Abhishake(sd4648@nyu.edu)
+Pruthviraj R Patil(prp7650@nyu.edu)
+Swathi Jain(sp6180@nyu.edu)
 
 #### **Professor:**
 
