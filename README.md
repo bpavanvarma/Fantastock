@@ -4,8 +4,6 @@
 
 Pavan Varma Bhupatiraju (pb2612@nyu.edu)
 Abhishake(sd4648@nyu.edu)
-Pruthviraj R Patil(prp7650@nyu.edu)
-Swathi Jain(sp6180@nyu.edu)
 
 #### **Professor:**
 
@@ -38,7 +36,7 @@ Sambit Sahu, NYU Tandon School of Engineering
 3. Database: Open Search, MongoDB 
 4. Networking: API Gateway
 5. Security: IAM
-6. Front End: S3
+6. Front End: ReactJS
 
 
 ### Data Sources: 
